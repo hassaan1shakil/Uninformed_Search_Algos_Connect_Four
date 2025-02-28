@@ -1,4 +1,3 @@
-# 8 Puzzle Game
 import copy
 import time
 import heapq
@@ -99,7 +98,6 @@ def is_sublist(main_list, sub_list):
     return  False
 
 def check_goal_state(state, symbol, coordinates):
-    # check for winning conditions
 
     pattern = [symbol, symbol, symbol, symbol]
 
@@ -204,7 +202,6 @@ def find_solution_bfs(root, symbol, coordinates):
     count = 0
 
     def generate_states_bfs(state, symbol, coordinates):
-        # Ensure that a move is made only if the columns' height permits it
 
         # Move Up & Left
         if coordinates[0] - 1 >= 0 and coordinates[1] - 1 >= 0 and is_empty(coordinates[0] - 1, coordinates[1] - 1,
@@ -366,7 +363,6 @@ def find_solution_dfs(root, symbol, coordinates):
     count = 0
 
     def generate_states_dfs(state, symbol, coordinates):
-        # Ensure that a move is made only if the columns' height permits it
 
         # Move Up & Left
         if coordinates[0] - 1 >= 0 and coordinates[1] - 1 >= 0 and is_empty(coordinates[0] - 1, coordinates[1] - 1,
@@ -520,14 +516,13 @@ def find_solution_dfs(root, symbol, coordinates):
     return path, goal.depth, count
 
 def find_solution_ucs(root, symbol, coordinates):
-# define comparison function in class
+
     min_heap = []
     visited = set()
     parents = dict()
     count = 0
 
     def generate_states_ucs(state, symbol, coordinates):
-        # Ensure that a move is made only if the columns' height permits it
 
         # Move Up & Left
         if coordinates[0] - 1 >= 0 and coordinates[1] - 1 >= 0 and is_empty(coordinates[0] - 1, coordinates[1] - 1,
@@ -687,7 +682,7 @@ def start_game(root, results, load_file):
     print("\n")
     print_board(root.game_board)
 
-    while not is_grid_filled(root.game_board): # may need to change this condition for something better/grid filled
+    while not is_grid_filled(root.game_board):
 
         # Player 1
 
