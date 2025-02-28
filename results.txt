@@ -1,0 +1,66 @@
+Time: 0.0024 seconds
+Depth of Search: 3
+Nodes Explored: 10
+Length of Path: 4
+Path: (5, 2) --> (4, 2) --> (3, 2) --> (2, 2)
+
+Time: 0.0091 seconds
+Depth of Search: 3
+Nodes Explored: 13
+Length of Path: 4
+Path: (5, 3) --> (4, 3) --> (3, 3) --> (2, 3)
+
+Time: 0.0067 seconds
+Depth of Search: 3
+Nodes Explored: 9
+Length of Path: 4
+Path: (5, 1) --> (4, 1) --> (3, 1) --> (2, 1)
+
+Time: 0.0091 seconds
+Depth of Search: 3
+Nodes Explored: 10
+Length of Path: 4
+Path: (5, 3) --> (4, 3) --> (3, 3) --> (2, 3)
+
+Time: 0.0038 seconds
+Depth of Search: 2
+Nodes Explored: 5
+Length of Path: 3
+Path: (4, 1) --> (3, 1) --> (2, 1)
+
+Time: 0.0060 seconds
+Depth of Search: 3
+Nodes Explored: 8
+Length of Path: 4
+Path: (5, 3) --> (5, 4) --> (5, 5) --> (5, 6)
+
+Time: 0.0038 seconds
+Depth of Search: 3
+Nodes Explored: 6
+Length of Path: 4
+Path: (5, 0) --> (4, 0) --> (3, 0) --> (2, 0)
+
+Time: 0.0056 seconds
+Depth of Search: 3
+Nodes Explored: 6
+Length of Path: 4
+Path: (5, 3) --> (4, 4) --> (3, 3) --> (2, 3)
+
+Time: 0.0041 seconds
+Depth of Search: 2
+Nodes Explored: 4
+Length of Path: 3
+Path: (4, 0) --> (3, 0) --> (2, 0)
+
+Time: 0.0050 seconds
+Depth of Search: 2
+Nodes Explored: 5
+Length of Path: 3
+Path: (4, 3) --> (3, 3) --> (2, 3)
+
+Time: 0.0020 seconds
+Depth of Search: 2
+Nodes Explored: 3
+Length of Path: 3
+Path: (4, 0) --> (3, 0) --> (2, 0)
+
